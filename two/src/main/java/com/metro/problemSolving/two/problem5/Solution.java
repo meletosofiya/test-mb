@@ -12,7 +12,7 @@ public class Solution {
      * Worst Case Time Complex: O(n * n!) where n represents for loop and n! represents factorial
      * Auxiliary Space: O(n)
      *
-     * @param input string
+     * @param input  string
      * @param output string
      * @return void
      */
@@ -44,7 +44,7 @@ public class Solution {
     public static void main(String[] args) {
 
         // vowels start end with in string combination
-        printVowelsStringCombination("abc","");
+        printVowelsStringCombination("abc", "");
 
     }
 }

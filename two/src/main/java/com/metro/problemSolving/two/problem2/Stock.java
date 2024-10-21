@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class Stock {
 
-    private String  id; // unique if of every stock
+    private String id; // unique if of every stock
 
-    private  String name; //stock name for eg maverick, infy
+    private String name; //stock name for eg maverick, infy
 
     private Double totalValue; //total value of all stock units
 
@@ -21,7 +21,6 @@ public class Stock {
         this.availableUnits = availableUnits;
         this.totalExpectedProfitPerMonth = totalExpectedProfitPerMonth;
     }
-
 
 
     public String getId() {

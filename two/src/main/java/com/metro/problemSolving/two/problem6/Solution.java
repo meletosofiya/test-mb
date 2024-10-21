@@ -1,7 +1,9 @@
 package com.metro.problemSolving.two.problem6;
 
 import java.io.File;
-import java.util.*;
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.Optional;
 
 public class Solution {
 
@@ -41,7 +43,7 @@ public class Solution {
     public static void main(String[] args) {
 
         // search a file by using BFS
-        System.out.println(searchFile("C:/Users/abc/demo","test.txt"));
+        System.out.println(searchFile("C:/Users/abc/demo", "test.txt"));
 
     }
 }

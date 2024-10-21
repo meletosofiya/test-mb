@@ -57,9 +57,9 @@ public class Solution {
 
         // profitable number of advertisement in a given height
         List<Advertisement> availableAdvertisement = new ArrayList<>();
-        availableAdvertisement.add(new Advertisement("Ad1",Double.valueOf(20),10,"Swiggy","25% Offer For all product"));
-        availableAdvertisement.add(new Advertisement("Ad2",Double.valueOf(20),30,"EatSure ","2% Offer For all product"));
-        availableAdvertisement.add(new Advertisement("Ad3",Double.valueOf(20),60,"BigBasket ","Free delivery For all product"));
+        availableAdvertisement.add(new Advertisement("Ad1", Double.valueOf(20), 10, "Swiggy", "25% Offer For all product"));
+        availableAdvertisement.add(new Advertisement("Ad2", Double.valueOf(20), 30, "EatSure ", "2% Offer For all product"));
+        availableAdvertisement.add(new Advertisement("Ad3", Double.valueOf(20), 60, "BigBasket ", "Free delivery For all product"));
         System.out.println(getProfitableAdvertisementInGivenPage(availableAdvertisement, 10));
 
     }

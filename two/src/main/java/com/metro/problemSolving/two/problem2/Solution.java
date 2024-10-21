@@ -35,14 +35,15 @@ public class Solution {
         System.out.println("Desired Cars Based On profit" + maxProfitableStock);
         return maxProfitableStock;
     }
+
     public static void main(String[] args) {
 
         // profitable stocks based on price
         List<Stock> availableStock = new ArrayList<>();
-        availableStock.add(new Stock("34A56598","SpiceJet ",Double.valueOf(1000000000),200l,Double.valueOf(50.5)));
-        availableStock.add(new Stock("34A56598","Bajaj ",Double.valueOf(100000000),205l,Double.valueOf(50.1)));
-        availableStock.add(new Stock("34A55598","Wipro ",Double.valueOf(1000000000),20l,Double.valueOf(10.5)));
-        System.out.println(getProfitableStock( availableStock, Double.valueOf(50)));
+        availableStock.add(new Stock("34A56598", "SpiceJet ", Double.valueOf(1000000000), 200l, Double.valueOf(50.5)));
+        availableStock.add(new Stock("34A56598", "Bajaj ", Double.valueOf(100000000), 205l, Double.valueOf(50.1)));
+        availableStock.add(new Stock("34A55598", "Wipro ", Double.valueOf(1000000000), 20l, Double.valueOf(10.5)));
+        System.out.println(getProfitableStock(availableStock, Double.valueOf(50)));
 
     }
 }

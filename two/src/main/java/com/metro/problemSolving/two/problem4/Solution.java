@@ -26,24 +26,22 @@ public class Solution {
         Deque<String> data = new LinkedList<>();
 
         for (int i = 0; i < inputString.length(); i++) {
-            if (tagMapper.keySet().contains(inputString.charAt(i) + "")) {
-                data.push(inputString.charAt(i) + "");
+            if (tagMapper.containsKey(String.valueOf(inputString.charAt(i)))) {
+                data.push(String.valueOf(inputString.charAt(i)));
             } else {
-                if (tagMapper.get(data.pop()) == inputString.charAt(i) + "") {
+                if (tagMapper.get(data.pop()) == String.valueOf(inputString.charAt(i))) {
                     data.poll();
                 }
             }
 
         }
 
-        if (data.size() == 0)
-            return true;
-        return false;
+        return data.size() == 0;
     }
 
     public static void main(String[] args) {
 
-       // string is balanced or not
+        // string is balanced or not
         System.out.println(findAGivenStringIsBalanced("[[}"));
 
     }
