@@ -1,4 +1,4 @@
-package com.metro.problemSolving.entity;
+package com.metro.problemSolving.two.problem3;
 
 import java.util.Objects;
 
